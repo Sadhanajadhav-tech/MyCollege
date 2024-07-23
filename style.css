@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    font-family: Verdana, sans-serif, Arial, Helvetica;
+    border: border-box;
+}
+
+.disko {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #b22222;
+    border-radius: 50%;
+    z-index: 111111;
+    animation: diskoAnimate 1s ease-in-out 1s infinite normal;
+}
+
+@keyframes diskoAnimate {
+    from {
+        background-color: #b22222;
+    }
+    to {
+        background-color: #d59c9c;
+    }
+}
+
+.circle {
+    color: #ffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navbar {
+    height: 90px;
+    background-color: #0a424e;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo {
+    background-image: url("logo.png");
+    background-size:cover;
+    height: 90%;
+    width: 60px;
+    margin-left: 20px;
+}
+
+.navbar-two {
+    height: 50px;
+    background-color: rgb(246, 240, 240);
+    color: #272f31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.icon:hover {
+    color: #b22222;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #b22222;
+    cursor: pointer;
+}
+
+.hero {
+    height: 550px;
+    background-color: #d7eef5;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar-three {
+    height: 50px;
+    background-color: rgb(246, 240, 240);
+    color: #272f31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    font-size: 1rem;
+    margin-inline-start: 2rem;
+    margin-inline-end: 8rem;
+    color: #b22222;
+}
+
+.h2 {
+    margin-inline-start: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #135361;
+}
+
+.hero-img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* background-image: url("https://mmcc.edu.in/wp-content/uploads/2023/05/vision_bg.png"); */
+    background-image: url("https://www.targetadmission.com/img/colleges/optimized/600/IMG-1-15112467.PNG");
+    background-size:cover;
+    height: 400px;
+    width: 40%;
+    /* border: 2px solid white; */
+    box-shadow: rgba(149, 157,165, 0.2);
+    animation: changeImage 20s ease-in-out infinite;
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url("https://images.shiksha.com/mediadata/images/1545385624phpEuczwh.jpeg");
+    }
+    25% {
+        background-image: url("https://mmcc.edu.in/wp-content/uploads/2024/05/Online-test-conduction-as-part-of-placement-drive-scaled.jpg");
+    }
+    50% {
+        background-image: url("https://www.targetadmission.com/img/colleges/optimized/600/IMG-1-15112467.PNG");
+    }
+    75% {
+        background-image: url("https://pr1.nicelocal.in/p1XWrAkLTfIpni9J4Xxjag/1120x700,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2UbjtIYbwLsJmfa7tD1G25J8vozt0jUch9Cr3in4-FvSN6_Hwug3xnhOGxOf2-Au3g");
+    }
+    100%{
+        background-image: url("https://mmcc.edu.in/wp-content/uploads/2023/04/MMCC_building-1.jpg");
+    }
+}
+
+.hero-card {
+    height: 400px;
+    width: 50%; 
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.hero-card-img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.hero-head {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 1.85rem;
+    color: #03262c
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(206, 199, 199);
+}
+
+.hero-foot {
+    margin-top: 20px;
+}
+
+.p-head {
+    font-family:Verdana, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #02515f;
+}
+
+.p-foot {
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #4f4545;
+}
+
+.hero-text {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.hero-text p {
+    line-height: 26px;
+    /* margin-inline-start: 20px;*/
+    margin-inline-end: 50px;
+    color: #4f4545;
+}
+
+.hero-btn {
+   margin-top: 20px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #007185;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1f92a6;
+}
+
+.div-one {
+    margin-left: 20px;
+}
+
+.box1 {
+    height: 650px;
+    width: 400px;
+    background-color: #5bacba;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.section-one img {
+    /* background-color: #ecf3f4; */
+    height: auto;
+    width: 350px;
+    position: relative;
+    right: 15px;
+    margin-left: 40px;
+}
+
+.section-one h4 {
+    text-align: center;
+}
+
+.section-one p {
+    text-align: center;
+}
+
+.section-two img {
+    /* background-color:#ecf3f4; */
+    height: 230px;
+    width: auto;
+    position: relative; 
+    right: 15px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.section-two h4 {
+    text-align: center;
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
+}
+
+.box {
+    height: 300px;
+    width: 400px;
+    background-color: rgba(186, 184, 182, 0.25);
+    margin-top: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    height: 280px;
+    width:auto;
+    position: relative;
+    border: none; 
+}
+
+.page-two {
+    background-image: url(https://mmcc.edu.in/wp-content/uploads/2023/05/vision_bg.png);
+    background-size: cover;
+    display: flex;
+    height: 850px;
+    width: 100%;
+}
+
+.div-two-box {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    /* margin-left: 40px; */
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 2rem;
+    color: #135361;
+}
+
+footer {
+    border-top: 2px solid rgb(19, 8, 8);
+    height: 600px;
+    width: 100%;
+}
+.backgroundImg {
+    background-image: url("https://mmcc.edu.in/wp-content/uploads/2018/08/h1deprt-bg.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
